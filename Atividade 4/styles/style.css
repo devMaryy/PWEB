@@ -1,0 +1,100 @@
+body {
+    font-family: "Times New Roman", Tahoma;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+/* HEADER E NAVEGAÇÃO */
+.header-1 {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    position: flex; /* OBSERVAR ESSA */
+    width: 100%;
+    top: 0;
+}
+
+.nav{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    float: left; /* FLUTUA O ELEMENTO ? */
+    padding: 22px 0;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-list {
+    list-style: none; /* REMOVER MARCADOR DA LISTA */
+}
+
+.nav-item {
+    display: inline-block; /* COLOCA DO LADO UM DO OUTRO E PERMITE MUDAR O ESPAÇO ENTRE ELES */
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* INÍCIO */
+.inicio h1 {
+    font-size: 100px;
+    padding: 0;
+    margin: 15px;
+}
+.inicio p{
+    font-size: 20px;
+    float: right;
+}
+
+/* SECTION HOME */
+.container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 25px;    /*ESPAÇO ENTRE OS CARDS*/
+}
+
+.card {
+    
+    background-color: #f1c8ff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 4px 4px 7px 4px rgba(101, 2, 163, 0.785), 5px 5px 10px #73159f; */
+    height: 400px;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+}
+
+.card h2 {
+    font-size: 19px;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 10px 0;
+}
